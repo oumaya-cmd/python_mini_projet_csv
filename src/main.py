@@ -10,7 +10,7 @@ def analyser_csv(fichier):
         return
     
     # Charger le fichier CSV
-    data = pd.read_csv(fichier)
+    data = pd.read_csv(fichier, sep=';')
 
     # Afficher un aperçu des données
     print("Aperçu des données :")
